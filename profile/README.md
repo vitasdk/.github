@@ -75,7 +75,8 @@ development, packaging, builds, and distribution.
 
 ## Contributing
 
-Contributions are welcome.
+Contributions are welcome. See [Contributing to VitaSDK](https://github.com/vitasdk/.github/blob/main/CONTRIBUTING.md)
+for pull request, testing, and review requirements.
 
 Project-wide and other significant decisions use the RFC process defined in
 [VitaSDK Governance](https://github.com/vitasdk/.github/blob/main/GOVERNANCE.md).
