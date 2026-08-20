@@ -1,0 +1,74 @@
+name: Request for Comments
+description: Propose a significant technical, policy, compatibility, or project-wide change
+title: "[RFC] "
+labels:
+  - rfc
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for changes that require the RFC process described in VitaSDK Governance.
+
+        Opening an RFC does not imply endorsement or acceptance.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem or limitation does this RFC address?
+      placeholder: Describe the problem and why it is worth addressing.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What do you propose changing?
+      placeholder: Describe the proposed solution or policy.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: What parts of VitaSDK, its users, or its contributors would be affected?
+      placeholder: Include compatibility, migration, maintenance, or ecosystem impact when relevant.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches were considered, and why were they not chosen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation
+      description: How would the accepted proposal be implemented?
+      placeholder: Link existing work or pull requests if applicable.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any other relevant information, links, prior discussions, or examples.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        RFC decisions follow the process defined in `GOVERNANCE.md`.
+
+        Maintainer positions may be recorded with 👍 / 👎 reactions.
+        An RFC enters the final objection period only after explicit approval
+        from a maintainer other than the proposer.
