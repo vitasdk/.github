@@ -108,6 +108,12 @@ For example:
     - <model and version>
     - <model and version>
 
+AI assistance should also be recorded in the commits where it was used with an `Assisted-by` trailer:
+
+    Assisted-by: <model and version>
+
+The pull request disclosure and commit trailer provide complementary information. The pull request describes AI assistance used in preparing the contribution as a whole, while the commit trailer preserves that information as part of the Git history independently of the hosting service.
+
 The contributor remains responsible for understanding, reviewing, testing, and describing the submitted changes.
 
 AI-assisted material is subject to the same testing, licensing, provenance, compatibility, and review requirements as any other contribution.
